@@ -31,6 +31,7 @@ h1, h2, h3 {
   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+//--
 
 // Navbar Styles
 .navbar-default .navbar-brand,
@@ -41,6 +42,21 @@ h1, h2, h3 {
     opacity: 0.75;
   }
 }
+//--
+
+// Icon bar
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
+//--
+
 // Nav styles
 .navbar {
   border: none;
